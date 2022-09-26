@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 55px;
+  background-color: rgb(123, 126, 88);
+  color: aqua;
+  padding: 5px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+
+#start-btn:hover {
+  background: rgb(60, 144, 165);
+  transform: translateY(-4px);
+}
+
+.players-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.choice {
+  width: 100px;
+  height: 80px;
+  box-shadow: 0 3px 5px;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selection {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.chooses {
+  box-shadow: 0 0 3px;
+  display: flex;
+  width: 60%;
+  margin: 1rem auto;
+  justify-content: space-around;
+  padding: 10px 1rem;
+}
+
+.choose {
+  font-size: 110px;
+  box-shadow: 0 0 2px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(72, 53, 73);
+}
+
+.round-result {
+  text-align: center;
+  background-color: rgb(40, 68, 55);
+}
+
+.round-result h3 {
+  margin: 8px;
+  color: rgb(230, 229, 189);
+}
+
+.round-result h3 span {
+  font-size: 20px;
+  color: rgb(243, 172, 222);
+}
+
+.round-result h2 {
+  color: #fff;
+}
+
+.winner {
+  color: rgb(80, 230, 80);
+}
+
+.display {
+  transform: scale(1.05);
+}
+
+.final-winner {
+  background-color: rgb(90, 86, 86);
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  width: 300px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.start {
+  transform: translateY(-500%);
+}
+
+.reset {
+  transform: translateY(0);
+  transition: 0.7s;
+}
+
+.final-winner button {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px 8px;
+}
